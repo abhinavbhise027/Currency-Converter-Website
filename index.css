@@ -9,6 +9,7 @@
 .container {
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+    max-width: 80vw;
 
 }
 
