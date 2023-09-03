@@ -10,6 +10,39 @@
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     max-width: 80vw;
+    margin: auto;
+
+}
+
+.container h1 {
+    margin: 23px 0;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container form label {
+    font-size: 25px;
+    width: 23vw;
+}
+
+.container form input[type='number'],
+select {
+    margin-bottom: 23px;
+    font-size: 25px;
+    width: 23vw;
+}
+
+.container form button {
+    width: 130px;
+    padding: 12px 24px;
+    font-size: 17px;
+    background-color: beige;
+    border-radius: 12px;
 
 }
 
